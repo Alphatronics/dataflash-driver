@@ -13,5 +13,13 @@
             "help": "Configure device to use DataFlash address space.",
             "value": "0"
         }
+    },
+    "target_overrides": {
+        "BINBEAT_V1_0": {
+            "SPI_MOSI": "MOSI_AT45_FW",
+            "SPI_MISO": "MISO_AT45_FW",
+            "SPI_CLK": "SCLK_AT45_FW",
+            "SPI_CS": "CS_AT45_FW"
+        }
     }
 }
