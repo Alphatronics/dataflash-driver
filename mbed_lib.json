@@ -15,7 +15,7 @@
         }
     },
     "target_overrides": {
-        "BINBEAT_V1_0": {
+        "MODULE_BINBEAT_V1": {
             "SPI_MOSI": "MOSI_AT45_FW",
             "SPI_MISO": "MISO_AT45_FW",
             "SPI_CLK": "SCLK_AT45_FW",
